@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+  background: radial-gradient(#efac61, #825eac);
 }
 
 .login__header {
@@ -18,17 +19,15 @@
   width: 250px;
 }
 
-
-
 .login__header h1 {
-  color: #333;
+  color: #825eac;
   font-size: 1.5em;
 }
 
 .login__input {
-  border: 2px solid #333;
+  border: 2px solid #efac61;
   border-radius: 8px;
-  color: #333;
+  color: #000;
   font-size: 1em;
   margin-bottom: 15px;
   max-width: 300px;
@@ -38,8 +37,7 @@
 }
 
 .login__button {
-  background-color: #00b5cc;
-  border: 3px solid #b2df28;
+  background-color: #825eac;
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
@@ -47,6 +45,11 @@
   max-width: 300px;
   padding: 15px;
   width: 100%;
+}
+
+.login__button:hover {
+  background-color: #8f66a1;
+  color: #fff;
 }
 
 .login__button:disabled {
